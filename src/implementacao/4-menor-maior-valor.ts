@@ -1,8 +1,8 @@
-function determinarMenorMaior(num1: number, num2: number): string {
-    if(num1 > num2) {
-        return `${num1} maior valor, ${num2} menor valor`;
+function determinarMenorMaior(numero1: number, numero2: number): string {
+    if(numero1 > numero2) {
+        return `${numero1} maior valor, ${numero2} menor valor`;
     } else {
-        return `${num2} maior valor, ${num1} menor valor`;
+        return `${numero2} maior valor, ${numero1} menor valor`;
     };
 }
 

@@ -1,5 +1,5 @@
-function verificarMultiploDe3(num: number): string {
-    if( num % 3 === 0){
+function verificarMultiploDe3(numero: number): string {
+    if( numero % 3 === 0){
         return "É multiplo de 3";
     }else{
         return "Não é multiplo de 3";
