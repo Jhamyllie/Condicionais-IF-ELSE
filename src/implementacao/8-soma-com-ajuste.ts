@@ -1,10 +1,10 @@
-function somaComAjuste(numx: number, numy: number):number {
-    let somz: number = numx + numy
+function somaComAjuste(numero_x: number, numero_y: number):number {
+    let soma_z: number = numero_x + numero_y
     
-    if (somz > 20){
-        return somz + 8;
+    if (soma_z > 20){
+        return soma_z + 8;
     }else {
-        return somz - 5;
+        return soma_z - 5;
     }
 }
 
