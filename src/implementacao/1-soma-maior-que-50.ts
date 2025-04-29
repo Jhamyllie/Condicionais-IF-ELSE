@@ -1,5 +1,5 @@
-function somaMaiorQueCinquenta(num1: number, num2: number): string {
-    let soma: number = num1 +num2; 
+function somaMaiorQueCinquenta(primeiroValor: number, segundoValor: number): string {
+    let soma: number = primeiroValor + segundoValor; 
     if (soma > 50) {
         return String(soma)
     } else {
@@ -7,6 +7,6 @@ function somaMaiorQueCinquenta(num1: number, num2: number): string {
     }
 }
 
-// console.log(somaMaiorQueCinquenta(5,10));
-// console.log(somaMaiorQueCinquenta(25,30));
-// console.log(somaMaiorQueCinquenta(20,25));
+console.log(somaMaiorQueCinquenta(5,10));
+console.log(somaMaiorQueCinquenta(25,30));
+console.log(somaMaiorQueCinquenta(20,25));
